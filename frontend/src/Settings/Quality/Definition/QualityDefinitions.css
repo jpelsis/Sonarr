@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  font-weight: bold;
+}
+
+.quality,
+.title {
+  flex: 0 1 250px;
+}
+
+.sizeLimit {
+  flex: 0 1 500px;
+}
+
+.sizeLimitHelpTextContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  max-width: 1000px;
+}
+
+.sizeLimitHelpText {
+  max-width: 500px;
+  color: $helpTextColor;
+}
